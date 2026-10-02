@@ -1,0 +1,14 @@
+{
+  "$schema": "./configuration-templates.schema.json",
+  "schema_version": 1,
+  "configuration_templates": {
+    "9.0": {
+      "full_template": {
+        "url": "https://raw.githubusercontent.com/citrix/CEI-configuration/version/9.0/config-dist/configuration.zip"
+      },
+      "without_sigma": {
+        "url": "https://raw.githubusercontent.com/citrix/CEI-configuration/version/9.0/config-dist/configuration-without-sigma-rules.zip"
+      }
+    }
+  }
+}
